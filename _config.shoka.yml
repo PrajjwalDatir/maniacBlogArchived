@@ -1,0 +1,125 @@
+alternate: Prajjwal Datir
+# loading-cat animation
+loader:
+  start: true # Have the Animation Effect when loading
+  switch: false # tab : When You switch Tab animation is displayed but page is not actually loaded
+
+fireworks:
+  enable: true # fireworks effect on Click is enable
+  color: # Below are the colors used on click
+    - "rgba(255,182,185,.9)"
+    - "rgba(250,227,217,.9)"
+    - "rgba(187,222,214,.9)"
+    - "rgba(138,198,209,.9)"
+  
+font:
+  enable: true
+  # Font options:
+  # `external: true` will load this font family from `host` above.
+  # `family: Times New Roman`. Without any quotes.
+  # `size: x.x`. Use `em` as unit. Default: 1 (16px)
+
+  # Global font settings used for all elements inside <body>.
+  global:
+    external: true
+    family: Mulish
+    size:
+
+  # Font settings for alternate title.
+  logo:
+    external: true
+    family: Fredericka the Great
+    size: 3.5
+
+  # Font settings for site title.
+  title:
+    external: true
+    family: Noto Serif JP
+    size: 2.5
+
+  # Font settings for headlines (<h1> to <h6>).
+  headings:
+    external: true
+    family: Noto Serif SC
+    size:
+
+  # Font settings for posts.
+  posts:
+    external: true
+    family:
+
+  # Font settings for <code> and code blocks.
+  codes:
+    external: true
+    family: Inconsolata
+
+menu:
+  home: / || home
+  about: /about/ || user
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+  # friends: /friends/ || heart
+  # links: /links/ || magic
+
+social:
+  github: https://github.com/PrajjwalDatir || github || "#191717"
+  #google: https://plus.google.com/yourname || google
+  twitter: https://twitter.com/prajjwal_datir || twitter || "#00aff0"
+  email: mailto:prajjwal.coep@gmail.com || envelope || "#55acd5"
+  #facebook: https://www.facebook.com/yourname || facebook
+  #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
+  #youtube: https://youtube.com/yourname || youtube
+  instagram: https://instagram.com/maniac.dev.in || instagram
+
+sidebar:
+  # Sidebar Position.
+  position: left
+  #position: right
+  # Replace the default avatar image and set the url here.
+  avatar: avatar.jpg
+
+  widgets:
+  random_posts: true # footer to go to Random Posts
+  recent_comments: true # To see Random Comments
+
+  # Footer
+footer:
+  since: 2020
+  count: true
+
+# Word Count & Reading Time
+post:
+  count: true
+
+valine:
+  appId: #Your_appId
+  appKey: #Your_appkey
+  placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
+  avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
+  pageSize: 10 # Pagination size
+  lang: en
+  visitor: true # 文章访问量统计
+  NoRecordIP: false # 不记录 IP
+  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: false # 默认打开评论框输入特效
+  tagMeta:
+    visitor: 新朋友
+    master: 主人
+    friend: 小伙伴
+    investor: 金主粑粑
+  tagColor:
+    master: "var(--color-orange)"
+    friend: "var(--color-aqua)"
+    investor: "var(--color-pink)"
+  tagMember:
+    master:
+      # - hash of master@email.com
+      # - hash of master2@email.com
+    friend:
+      # - hash of friend@email.com
+      # - hash of friend2@email.com
+    investor:
+      # - hash of investor1@email.com
